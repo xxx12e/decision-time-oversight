@@ -1,0 +1,2 @@
+# keep the preregistration byte-identical on every platform so its SHA-256 sidecars match
+prereg/** -text
