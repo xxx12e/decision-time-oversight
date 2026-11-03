@@ -1,0 +1,144 @@
+{
+ "family": "qwen35",
+ "n_trials": 20,
+ "by_adv": {
+  "plain": {
+   "n_trials": 10,
+   "n_captured": 10,
+   "capture_rounds": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "parse_fail_total": 4,
+   "roundwise": {
+    "2": {
+     "AUC": 0.175,
+     "TP": 0,
+     "FP": 0,
+     "TPR": 0.0,
+     "FPR": 0.0,
+     "n_pairs": 60
+    },
+    "3": {
+     "AUC": 1.0,
+     "TP": 8,
+     "FP": 0,
+     "TPR": 0.4,
+     "FPR": 0.0,
+     "n_pairs": 60
+    },
+    "4": {
+     "AUC": 0.8875,
+     "TP": 13,
+     "FP": 0,
+     "TPR": 0.65,
+     "FPR": 0.0,
+     "n_pairs": 60
+    },
+    "5": {
+     "AUC": 0.89875,
+     "TP": 14,
+     "FP": 0,
+     "TPR": 0.7,
+     "FPR": 0.0,
+     "n_pairs": 60
+    },
+    "posthoc": {
+     "AUC": 0.9125,
+     "TP": 18,
+     "FP": 0,
+     "TPR": 0.9,
+     "FPR": 0.0,
+     "n_pairs": 60
+    }
+   },
+   "timely_recall_at_C": 0.0,
+   "posthoc_AUC": 0.9125,
+   "posthoc_AUC_ci95": [
+    0.7734375,
+    1.0
+   ],
+   "timely_recall_ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "jitter": {
+   "n_trials": 10,
+   "n_captured": 10,
+   "capture_rounds": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    1
+   ],
+   "parse_fail_total": 5,
+   "roundwise": {
+    "2": {
+     "AUC": 0.3425,
+     "TP": 0,
+     "FP": 0,
+     "TPR": 0.0,
+     "FPR": 0.0,
+     "n_pairs": 60
+    },
+    "3": {
+     "AUC": 0.68375,
+     "TP": 0,
+     "FP": 0,
+     "TPR": 0.0,
+     "FPR": 0.0,
+     "n_pairs": 60
+    },
+    "4": {
+     "AUC": 0.65875,
+     "TP": 0,
+     "FP": 0,
+     "TPR": 0.0,
+     "FPR": 0.0,
+     "n_pairs": 60
+    },
+    "5": {
+     "AUC": 0.620625,
+     "TP": 1,
+     "FP": 0,
+     "TPR": 0.05,
+     "FPR": 0.0,
+     "n_pairs": 60
+    },
+    "posthoc": {
+     "AUC": 0.53,
+     "TP": 0,
+     "FP": 0,
+     "TPR": 0.0,
+     "FPR": 0.0,
+     "n_pairs": 60
+    }
+   },
+   "timely_recall_at_C": 0.0,
+   "posthoc_AUC": 0.53,
+   "posthoc_AUC_ci95": [
+    0.36527777777777776,
+    0.700625
+   ],
+   "timely_recall_ci95": [
+    0.0,
+    0.0
+   ]
+  }
+ }
+}

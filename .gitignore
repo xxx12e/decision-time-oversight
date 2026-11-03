@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.aux
+*.log
+*.out
+*.blg
+*.bbl
+*.pdf
+!figures/**/*.pdf
+!jaamas/figures/*.pdf

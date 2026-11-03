@@ -1,0 +1,144 @@
+{
+ "family": "gemma4",
+ "n_trials": 20,
+ "by_adv": {
+  "plain": {
+   "n_trials": 10,
+   "n_captured": 10,
+   "capture_rounds": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    2,
+    3,
+    3,
+    1
+   ],
+   "parse_fail_total": 9,
+   "roundwise": {
+    "2": {
+     "AUC": 0.375,
+     "TP": 0,
+     "FP": 0,
+     "TPR": 0.0,
+     "FPR": 0.0,
+     "n_pairs": 60
+    },
+    "3": {
+     "AUC": 0.9925,
+     "TP": 18,
+     "FP": 0,
+     "TPR": 0.9,
+     "FPR": 0.0,
+     "n_pairs": 60
+    },
+    "4": {
+     "AUC": 0.865,
+     "TP": 17,
+     "FP": 0,
+     "TPR": 0.85,
+     "FPR": 0.0,
+     "n_pairs": 60
+    },
+    "5": {
+     "AUC": 0.83,
+     "TP": 16,
+     "FP": 0,
+     "TPR": 0.8,
+     "FPR": 0.0,
+     "n_pairs": 60
+    },
+    "posthoc": {
+     "AUC": 0.85375,
+     "TP": 17,
+     "FP": 0,
+     "TPR": 0.85,
+     "FPR": 0.0,
+     "n_pairs": 60
+    }
+   },
+   "timely_recall_at_C": 0.2222222222222222,
+   "posthoc_AUC": 0.85375,
+   "posthoc_AUC_ci95": [
+    0.7,
+    1.0
+   ],
+   "timely_recall_ci95": [
+    0.0,
+    0.5
+   ]
+  },
+  "jitter": {
+   "n_trials": 10,
+   "n_captured": 10,
+   "capture_rounds": [
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    2,
+    1
+   ],
+   "parse_fail_total": 9,
+   "roundwise": {
+    "2": {
+     "AUC": 0.375,
+     "TP": 0,
+     "FP": 0,
+     "TPR": 0.0,
+     "FPR": 0.0,
+     "n_pairs": 60
+    },
+    "3": {
+     "AUC": 0.7425,
+     "TP": 0,
+     "FP": 0,
+     "TPR": 0.0,
+     "FPR": 0.0,
+     "n_pairs": 60
+    },
+    "4": {
+     "AUC": 0.5725,
+     "TP": 0,
+     "FP": 0,
+     "TPR": 0.0,
+     "FPR": 0.0,
+     "n_pairs": 60
+    },
+    "5": {
+     "AUC": 0.6225,
+     "TP": 3,
+     "FP": 0,
+     "TPR": 0.15,
+     "FPR": 0.0,
+     "n_pairs": 60
+    },
+    "posthoc": {
+     "AUC": 0.3775,
+     "TP": 0,
+     "FP": 0,
+     "TPR": 0.0,
+     "FPR": 0.0,
+     "n_pairs": 60
+    }
+   },
+   "timely_recall_at_C": 0.0,
+   "posthoc_AUC": 0.3775,
+   "posthoc_AUC_ci95": [
+    0.18,
+    0.6222222222222222
+   ],
+   "timely_recall_ci95": [
+    0.0,
+    0.0
+   ]
+  }
+ }
+}

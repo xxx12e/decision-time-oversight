@@ -1,0 +1,57 @@
+{
+ "note": "one-way random effects on the per-seed paired delta; the cell is the grouping factor. The registered sign test and the paired bootstrap the paper reports both use the cell as the unit already -- this quantifies what that choice costs and why the seed-level n is not the effective n.",
+ "contrasts": {
+  "vs_uniform@B2|timely": {
+   "n_cells": 12,
+   "n_obs": 600,
+   "mean": 0.4066666666666667,
+   "sigma_between_cells": 0.2991459705366457,
+   "sigma_within_cell": 0.3994043183589901,
+   "icc": 0.35937331585590165,
+   "design_effect": 18.60929247693918,
+   "effective_n": 32.24195657860319,
+   "se_random_effects": 0.08788192261911618,
+   "se_if_seeds_were_independent": 0.020372044620513723,
+   "naive_se_understates_by_factor": 4.31384891679567
+  },
+  "vs_uniform@B2|prevention": {
+   "n_cells": 12,
+   "n_obs": 600,
+   "mean": 0.3933333333333333,
+   "sigma_between_cells": 0.25236102183821535,
+   "sigma_within_cell": 0.42490495135627077,
+   "icc": 0.2607624219969392,
+   "design_effect": 13.777358677850021,
+   "effective_n": 43.54971181556195,
+   "se_random_effects": 0.07488712044190782,
+   "se_if_seeds_were_independent": 0.020175492684207368,
+   "naive_se_understates_by_factor": 3.7117864536971976
+  },
+  "vs_uniform@B3|timely": {
+   "n_cells": 12,
+   "n_obs": 600,
+   "mean": 0.3,
+   "sigma_between_cells": 0.264200875583798,
+   "sigma_within_cell": 0.3824375810525955,
+   "icc": 0.32306723530927095,
+   "design_effect": 16.830294530154276,
+   "effective_n": 35.650000000000006,
+   "se_random_effects": 0.0778498944161523,
+   "se_if_seeds_were_independent": 0.0189763276242009,
+   "naive_se_understates_by_factor": 4.102474196159468
+  },
+  "vs_uniform@B3|prevention": {
+   "n_cells": 12,
+   "n_obs": 600,
+   "mean": 0.3133333333333333,
+   "sigma_between_cells": 0.261935614082071,
+   "sigma_within_cell": 0.39053425816786047,
+   "icc": 0.31027500623666665,
+   "design_effect": 16.203475305596665,
+   "effective_n": 37.029093369418135,
+   "se_random_effects": 0.07727688640025017,
+   "se_if_seeds_were_independent": 0.019197537720901985,
+   "naive_se_understates_by_factor": 4.025354059656946
+  }
+ }
+}

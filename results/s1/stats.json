@@ -1,0 +1,6341 @@
+{
+ "h2": {
+  "best": {
+   "n_windowed": 12,
+   "k_positive": 11,
+   "k_negative": 0,
+   "n_ties": 1,
+   "sign_p_one_sided": 0.00048828125,
+   "mean_delta": 0.4066666666666667
+  },
+  "geo": {
+   "n_windowed": 12,
+   "k_positive": 11,
+   "k_negative": 0,
+   "n_ties": 1,
+   "sign_p_one_sided": 0.00048828125,
+   "mean_delta": 0.4066666666666667
+  },
+  "cells": [
+   {
+    "cell": "2|0.58|clustered",
+    "best_B1_policy": "geometric",
+    "delta_best": 0.38,
+    "delta_geo": 0.38,
+    "ci_best": [
+     0.38,
+     0.24,
+     0.52
+    ],
+    "ci_geo": [
+     0.38,
+     0.24,
+     0.52
+    ],
+    "budget_contrasts": {
+     "vs_uniform@B2": {
+      "timely": 0.38,
+      "prevention": 0.22
+     },
+     "vs_uniform@B3": {
+      "timely": 0.3,
+      "prevention": 0.18
+     }
+    }
+   },
+   {
+    "cell": "2|0.58|random",
+    "best_B1_policy": "geometric",
+    "delta_best": 0.44,
+    "delta_geo": 0.44,
+    "ci_best": [
+     0.44,
+     0.3,
+     0.58
+    ],
+    "ci_geo": [
+     0.44,
+     0.3,
+     0.58
+    ],
+    "budget_contrasts": {
+     "vs_uniform@B2": {
+      "timely": 0.44,
+      "prevention": 0.26
+     },
+     "vs_uniform@B3": {
+      "timely": 0.38,
+      "prevention": 0.22
+     }
+    }
+   },
+   {
+    "cell": "2|0.66|hub",
+    "best_B1_policy": "geometric",
+    "delta_best": 0.46,
+    "delta_geo": 0.46,
+    "ci_best": [
+     0.46,
+     0.32,
+     0.6
+    ],
+    "ci_geo": [
+     0.46,
+     0.32,
+     0.6
+    ],
+    "budget_contrasts": {
+     "vs_uniform@B2": {
+      "timely": 0.46,
+      "prevention": 0.56
+     },
+     "vs_uniform@B3": {
+      "timely": 0.22,
+      "prevention": 0.48
+     }
+    }
+   },
+   {
+    "cell": "3|0.58|random",
+    "best_B1_policy": "geometric",
+    "delta_best": 0.68,
+    "delta_geo": 0.68,
+    "ci_best": [
+     0.68,
+     0.56,
+     0.8
+    ],
+    "ci_geo": [
+     0.68,
+     0.56,
+     0.8
+    ],
+    "budget_contrasts": {
+     "vs_uniform@B2": {
+      "timely": 0.68,
+      "prevention": 0.38
+     },
+     "vs_uniform@B3": {
+      "timely": 0.54,
+      "prevention": 0.38
+     }
+    }
+   },
+   {
+    "cell": "3|0.66|hub",
+    "best_B1_policy": "geometric",
+    "delta_best": 0.92,
+    "delta_geo": 0.92,
+    "ci_best": [
+     0.92,
+     0.84,
+     0.98
+    ],
+    "ci_geo": [
+     0.92,
+     0.84,
+     0.98
+    ],
+    "budget_contrasts": {
+     "vs_uniform@B2": {
+      "timely": 0.92,
+      "prevention": 0.74
+     },
+     "vs_uniform@B3": {
+      "timely": 0.78,
+      "prevention": 0.72
+     }
+    }
+   },
+   {
+    "cell": "3|0.74|hub",
+    "best_B1_policy": "geometric",
+    "delta_best": 0.0,
+    "delta_geo": 0.0,
+    "ci_best": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ci_geo": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "budget_contrasts": {
+     "vs_uniform@B2": {
+      "timely": 0.0,
+      "prevention": 0.18
+     },
+     "vs_uniform@B3": {
+      "timely": 0.0,
+      "prevention": 0.02
+     }
+    }
+   },
+   {
+    "cell": "4|0.66|random",
+    "best_B1_policy": "geometric",
+    "delta_best": 0.44,
+    "delta_geo": 0.44,
+    "ci_best": [
+     0.44,
+     0.3,
+     0.58
+    ],
+    "ci_geo": [
+     0.44,
+     0.3,
+     0.58
+    ],
+    "budget_contrasts": {
+     "vs_uniform@B2": {
+      "timely": 0.44,
+      "prevention": 0.56
+     },
+     "vs_uniform@B3": {
+      "timely": 0.34,
+      "prevention": 0.48
+     }
+    }
+   },
+   {
+    "cell": "4|0.66|small_world",
+    "best_B1_policy": "geometric",
+    "delta_best": 0.26,
+    "delta_geo": 0.26,
+    "ci_best": [
+     0.26,
+     0.14,
+     0.38
+    ],
+    "ci_geo": [
+     0.26,
+     0.14,
+     0.38
+    ],
+    "budget_contrasts": {
+     "vs_uniform@B2": {
+      "timely": 0.26,
+      "prevention": 0.3
+     },
+     "vs_uniform@B3": {
+      "timely": 0.16,
+      "prevention": 0.26
+     }
+    }
+   },
+   {
+    "cell": "4|0.74|hub",
+    "best_B1_policy": "geometric",
+    "delta_best": 0.22,
+    "delta_geo": 0.22,
+    "ci_best": [
+     0.22,
+     0.12,
+     0.34
+    ],
+    "ci_geo": [
+     0.22,
+     0.12,
+     0.34
+    ],
+    "budget_contrasts": {
+     "vs_uniform@B2": {
+      "timely": 0.22,
+      "prevention": 0.4
+     },
+     "vs_uniform@B3": {
+      "timely": 0.08,
+      "prevention": 0.14
+     }
+    }
+   },
+   {
+    "cell": "6|0.74|hub",
+    "best_B1_policy": "geometric",
+    "delta_best": 0.9,
+    "delta_geo": 0.9,
+    "ci_best": [
+     0.9,
+     0.8,
+     0.98
+    ],
+    "ci_geo": [
+     0.9,
+     0.8,
+     0.98
+    ],
+    "budget_contrasts": {
+     "vs_uniform@B2": {
+      "timely": 0.9,
+      "prevention": 0.92
+     },
+     "vs_uniform@B3": {
+      "timely": 0.74,
+      "prevention": 0.82
+     }
+    }
+   },
+   {
+    "cell": "6|0.74|random",
+    "best_B1_policy": "geometric",
+    "delta_best": 0.16,
+    "delta_geo": 0.16,
+    "ci_best": [
+     0.16,
+     0.06,
+     0.26
+    ],
+    "ci_geo": [
+     0.16,
+     0.06,
+     0.26
+    ],
+    "budget_contrasts": {
+     "vs_uniform@B2": {
+      "timely": 0.16,
+      "prevention": 0.18
+     },
+     "vs_uniform@B3": {
+      "timely": 0.04,
+      "prevention": 0.04
+     }
+    }
+   },
+   {
+    "cell": "6|0.74|small_world",
+    "best_B1_policy": "geometric",
+    "delta_best": 0.02,
+    "delta_geo": 0.02,
+    "ci_best": [
+     0.02,
+     0.0,
+     0.06
+    ],
+    "ci_geo": [
+     0.02,
+     0.0,
+     0.06
+    ],
+    "budget_contrasts": {
+     "vs_uniform@B2": {
+      "timely": 0.02,
+      "prevention": 0.02
+     },
+     "vs_uniform@B3": {
+      "timely": 0.02,
+      "prevention": 0.02
+     }
+    }
+   }
+  ],
+  "registered_family": {
+   "note": "PREREG H2 family: best single check vs uniform at B=2 and at B=3, on timely catch and on capture prevention; Holm within endpoint. The latency arms in Section 4 are robustness, not family members.",
+   "tests": {
+    "vs_uniform@B2|timely": {
+     "n_windowed": 12,
+     "k_positive": 11,
+     "k_negative": 0,
+     "n_ties": 1,
+     "sign_p_one_sided": 0.00048828125,
+     "mean_delta": 0.4066666666666667,
+     "paired_boot_ci": [
+      0.24833333333333332,
+      0.5750000000000001
+     ]
+    },
+    "vs_uniform@B2|prevention": {
+     "n_windowed": 12,
+     "k_positive": 12,
+     "k_negative": 0,
+     "n_ties": 0,
+     "sign_p_one_sided": 0.000244140625,
+     "mean_delta": 0.3933333333333333,
+     "paired_boot_ci": [
+      0.25833333333333336,
+      0.5433333333333333
+     ]
+    },
+    "vs_uniform@B3|timely": {
+     "n_windowed": 12,
+     "k_positive": 11,
+     "k_negative": 0,
+     "n_ties": 1,
+     "sign_p_one_sided": 0.00048828125,
+     "mean_delta": 0.3,
+     "paired_boot_ci": [
+      0.16,
+      0.45
+     ]
+    },
+    "vs_uniform@B3|prevention": {
+     "n_windowed": 12,
+     "k_positive": 12,
+     "k_negative": 0,
+     "n_ties": 0,
+     "sign_p_one_sided": 0.000244140625,
+     "mean_delta": 0.3133333333333333,
+     "paired_boot_ci": [
+      0.17500000000000002,
+      0.465
+     ]
+    }
+   },
+   "holm_adjusted_p": {
+    "vs_uniform@B2|timely": 0.0009765625,
+    "vs_uniform@B3|timely": 0.0009765625,
+    "vs_uniform@B2|prevention": 0.00048828125,
+    "vs_uniform@B3|prevention": 0.00048828125
+   },
+   "max_adjusted_p": 0.0009765625
+  },
+  "registered_pass": true
+ },
+ "h3": {
+  "counts": {
+   "ceiling_bound": 10,
+   "benign": 19,
+   "placement_critical": 28,
+   "budget_saturated": 3
+  },
+  "shares": {
+   "ceiling_bound": 0.16666666666666666,
+   "benign": 0.31666666666666665,
+   "placement_critical": 0.4666666666666667,
+   "budget_saturated": 0.05
+  },
+  "per_topology": {
+   "clustered": {
+    "ceiling_bound": 1,
+    "benign": 6,
+    "placement_critical": 7,
+    "budget_saturated": 1
+   },
+   "hub": {
+    "ceiling_bound": 6,
+    "benign": 2,
+    "placement_critical": 7
+   },
+   "random": {
+    "ceiling_bound": 1,
+    "benign": 5,
+    "placement_critical": 8,
+    "budget_saturated": 1
+   },
+   "small_world": {
+    "ceiling_bound": 2,
+    "benign": 6,
+    "placement_critical": 6,
+    "budget_saturated": 1
+   }
+  },
+  "ge10pct": {
+   "ceiling_bound": true,
+   "placement_critical": true,
+   "budget_saturated": false
+  },
+  "present_in_topologies": {
+   "ceiling_bound": 4,
+   "placement_critical": 4,
+   "budget_saturated": 3
+  },
+  "registered_pass": false
+ },
+ "clean": {
+  "0.58|clustered": {
+   "uniform@B1": 0.0,
+   "uniform@B2": 0.02,
+   "uniform@B3": 0.04,
+   "geometric@B1": 0.0,
+   "geometric@B2": 0.0,
+   "geometric@B3": 0.0,
+   "suspicion@B1": 0.04,
+   "suspicion@B2": 0.04,
+   "suspicion@B3": 0.04
+  },
+  "0.58|hub": {
+   "uniform@B1": 0.0,
+   "uniform@B2": 0.0,
+   "uniform@B3": 0.04,
+   "geometric@B1": 0.0,
+   "geometric@B2": 0.0,
+   "geometric@B3": 0.0,
+   "suspicion@B1": 0.02,
+   "suspicion@B2": 0.02,
+   "suspicion@B3": 0.02
+  },
+  "0.58|random": {
+   "uniform@B1": 0.0,
+   "uniform@B2": 0.0,
+   "uniform@B3": 0.02,
+   "geometric@B1": 0.0,
+   "geometric@B2": 0.0,
+   "geometric@B3": 0.0,
+   "suspicion@B1": 0.04,
+   "suspicion@B2": 0.04,
+   "suspicion@B3": 0.04
+  },
+  "0.58|small_world": {
+   "uniform@B1": 0.0,
+   "uniform@B2": 0.02,
+   "uniform@B3": 0.04,
+   "geometric@B1": 0.0,
+   "geometric@B2": 0.0,
+   "geometric@B3": 0.0,
+   "suspicion@B1": 0.08,
+   "suspicion@B2": 0.08,
+   "suspicion@B3": 0.08
+  },
+  "0.66|clustered": {
+   "uniform@B1": 0.0,
+   "uniform@B2": 0.02,
+   "uniform@B3": 0.02,
+   "geometric@B1": 0.0,
+   "geometric@B2": 0.0,
+   "geometric@B3": 0.0,
+   "suspicion@B1": 0.0,
+   "suspicion@B2": 0.0,
+   "suspicion@B3": 0.0
+  },
+  "0.66|hub": {
+   "uniform@B1": 0.0,
+   "uniform@B2": 0.0,
+   "uniform@B3": 0.0,
+   "geometric@B1": 0.0,
+   "geometric@B2": 0.0,
+   "geometric@B3": 0.0,
+   "suspicion@B1": 0.0,
+   "suspicion@B2": 0.0,
+   "suspicion@B3": 0.0
+  },
+  "0.66|random": {
+   "uniform@B1": 0.0,
+   "uniform@B2": 0.06,
+   "uniform@B3": 0.0,
+   "geometric@B1": 0.0,
+   "geometric@B2": 0.0,
+   "geometric@B3": 0.0,
+   "suspicion@B1": 0.04,
+   "suspicion@B2": 0.04,
+   "suspicion@B3": 0.04
+  },
+  "0.66|small_world": {
+   "uniform@B1": 0.0,
+   "uniform@B2": 0.0,
+   "uniform@B3": 0.0,
+   "geometric@B1": 0.0,
+   "geometric@B2": 0.0,
+   "geometric@B3": 0.0,
+   "suspicion@B1": 0.02,
+   "suspicion@B2": 0.02,
+   "suspicion@B3": 0.02
+  },
+  "0.74|clustered": {
+   "uniform@B1": 0.02,
+   "uniform@B2": 0.04,
+   "uniform@B3": 0.04,
+   "geometric@B1": 0.0,
+   "geometric@B2": 0.0,
+   "geometric@B3": 0.02,
+   "suspicion@B1": 0.02,
+   "suspicion@B2": 0.02,
+   "suspicion@B3": 0.02
+  },
+  "0.74|hub": {
+   "uniform@B1": 0.02,
+   "uniform@B2": 0.0,
+   "uniform@B3": 0.02,
+   "geometric@B1": 0.0,
+   "geometric@B2": 0.0,
+   "geometric@B3": 0.02,
+   "suspicion@B1": 0.0,
+   "suspicion@B2": 0.0,
+   "suspicion@B3": 0.0
+  },
+  "0.74|random": {
+   "uniform@B1": 0.0,
+   "uniform@B2": 0.02,
+   "uniform@B3": 0.02,
+   "geometric@B1": 0.0,
+   "geometric@B2": 0.0,
+   "geometric@B3": 0.0,
+   "suspicion@B1": 0.06,
+   "suspicion@B2": 0.06,
+   "suspicion@B3": 0.06
+  },
+  "0.74|small_world": {
+   "uniform@B1": 0.0,
+   "uniform@B2": 0.0,
+   "uniform@B3": 0.0,
+   "geometric@B1": 0.0,
+   "geometric@B2": 0.0,
+   "geometric@B3": 0.0,
+   "suspicion@B1": 0.0,
+   "suspicion@B2": 0.0,
+   "suspicion@B3": 0.0
+  }
+ },
+ "cells": {
+  "1|0.58|clustered": {
+   "fc_baseline": 0.12,
+   "median_capture": null,
+   "regime": "ceiling_bound",
+   "best_B1": {
+    "policy": "random",
+    "fc_prevention": 0.01999999999999999
+   },
+   "oracle_any": 0.01999999999999999,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.94
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.039999999999999994,
+     "timely": 0.98
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.039999999999999994,
+     "timely": 0.98
+    },
+    "random@B1": {
+     "fc_prevention": 0.01999999999999999,
+     "timely": 0.82
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.92
+    },
+    "random@B3": {
+     "fc_prevention": 0.01999999999999999,
+     "timely": 0.98
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.039999999999999994,
+     "timely": 0.62
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.88
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.88
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.88
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.039999999999999994,
+     "timely": 0.62
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.039999999999999994,
+     "timely": 0.98
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.01999999999999999,
+     "timely": 0.98
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.01999999999999999,
+     "timely": 0.98
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.01999999999999999,
+     "timely": 0.98
+    }
+   }
+  },
+  "1|0.58|hub": {
+   "fc_baseline": 0.96,
+   "median_capture": 2.5,
+   "regime": "ceiling_bound",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.08
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.16
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.08
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.1
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.08
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.12
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.04
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.04
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.04
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.08
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.18
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.18
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.18
+    }
+   }
+  },
+  "1|0.58|random": {
+   "fc_baseline": 0.24,
+   "median_capture": null,
+   "regime": "ceiling_bound",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.01999999999999999
+   },
+   "oracle_any": 0.03999999999999998,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.01999999999999999,
+     "timely": 0.88
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.06,
+     "timely": 0.94
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.03999999999999998,
+     "timely": 0.9
+    },
+    "random@B1": {
+     "fc_prevention": 0.01999999999999999,
+     "timely": 0.74
+    },
+    "random@B2": {
+     "fc_prevention": 0.01999999999999999,
+     "timely": 0.84
+    },
+    "random@B3": {
+     "fc_prevention": 0.03999999999999998,
+     "timely": 0.9
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.03999999999999998,
+     "timely": 0.52
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.78
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.78
+    },
+    "back@B3": {
+     "fc_prevention": 0.01999999999999999,
+     "timely": 0.8
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.03999999999999998,
+     "timely": 0.52
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.03999999999999998,
+     "timely": 0.9
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.94
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.94
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.03999999999999998,
+     "timely": 0.94
+    }
+   }
+  },
+  "1|0.58|small_world": {
+   "fc_baseline": 0.1,
+   "median_capture": null,
+   "regime": "ceiling_bound",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.020000000000000004
+   },
+   "oracle_any": 0.020000000000000004,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.020000000000000004,
+     "timely": 0.94
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.020000000000000004,
+     "timely": 0.96
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.020000000000000004,
+     "timely": 0.94
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.74
+    },
+    "random@B2": {
+     "fc_prevention": 0.020000000000000004,
+     "timely": 0.94
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.88
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.88
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.9
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.94
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.020000000000000004,
+     "timely": 0.94
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.96
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.020000000000000004,
+     "timely": 0.98
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.020000000000000004,
+     "timely": 0.98
+    }
+   }
+  },
+  "1|0.66|clustered": {
+   "fc_baseline": 0.02,
+   "median_capture": null,
+   "regime": "benign",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.98
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.98
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.02,
+     "timely": 0.98
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.78
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.96
+    },
+    "random@B3": {
+     "fc_prevention": 0.02,
+     "timely": 0.98
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.02,
+     "timely": 0.46
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.92
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.92
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.92
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.02,
+     "timely": 0.46
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.02,
+     "timely": 0.98
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.94
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.94
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.94
+    }
+   }
+  },
+  "1|0.66|hub": {
+   "fc_baseline": 0.12,
+   "median_capture": null,
+   "regime": "ceiling_bound",
+   "best_B1": {
+    "policy": "random",
+    "fc_prevention": 0.039999999999999994
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.01999999999999999,
+     "timely": 0.6
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.01999999999999999,
+     "timely": 0.66
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.01999999999999999,
+     "timely": 0.66
+    },
+    "random@B1": {
+     "fc_prevention": 0.039999999999999994,
+     "timely": 0.46
+    },
+    "random@B2": {
+     "fc_prevention": 0.039999999999999994,
+     "timely": 0.54
+    },
+    "random@B3": {
+     "fc_prevention": 0.039999999999999994,
+     "timely": 0.6
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.12
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.44
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.48
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.5
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.12
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.01999999999999999,
+     "timely": 0.62
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.54
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.56
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.58
+    }
+   }
+  },
+  "1|0.66|random": {
+   "fc_baseline": 0.0,
+   "median_capture": null,
+   "regime": "benign",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.82
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.86
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.84
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.6
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.84
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.8
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.3
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.84
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.86
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.86
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.3
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.82
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.84
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.86
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.86
+    }
+   }
+  },
+  "1|0.66|small_world": {
+   "fc_baseline": 0.0,
+   "median_capture": null,
+   "regime": "benign",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.36
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.44
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.46
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.26
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.32
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.34
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.36
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.38
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.4
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.36
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.36
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.38
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.4
+    }
+   }
+  },
+  "1|0.74|clustered": {
+   "fc_baseline": 0.0,
+   "median_capture": null,
+   "regime": "benign",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.46
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.5
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.5
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.42
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.44
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.48
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.22
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.4
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.4
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.42
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.22
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.5
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.4
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.4
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.42
+    }
+   }
+  },
+  "1|0.74|hub": {
+   "fc_baseline": 0.0,
+   "median_capture": null,
+   "regime": "benign",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.06
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.06
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.08
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.04
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.08
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.04
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.06
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.04
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.04
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.06
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.06
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.08
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.04
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.04
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.06
+    }
+   }
+  },
+  "1|0.74|random": {
+   "fc_baseline": 0.0,
+   "median_capture": null,
+   "regime": "benign",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.34
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.42
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.44
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.26
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.42
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.4
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.28
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.32
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.32
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.32
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.28
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.4
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.32
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.32
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.32
+    }
+   }
+  },
+  "1|0.74|small_world": {
+   "fc_baseline": 0.0,
+   "median_capture": null,
+   "regime": "benign",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    }
+   }
+  },
+  "2|0.58|clustered": {
+   "fc_baseline": 0.52,
+   "median_capture": 3,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.22000000000000003
+   },
+   "oracle_any": 0.14,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.52
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.62
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.7
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.54
+    },
+    "random@B2": {
+     "fc_prevention": 0.06,
+     "timely": 0.62
+    },
+    "random@B3": {
+     "fc_prevention": 0.08000000000000002,
+     "timely": 0.66
+    },
+    "front@B1": {
+     "fc_prevention": 0.22000000000000003,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.22000000000000003,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.22000000000000003,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.42
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.42
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.44
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.22000000000000003,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.22000000000000003,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.22000000000000003,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.08000000000000002,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.10000000000000003,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.14,
+     "timely": 1.0
+    }
+   }
+  },
+  "2|0.58|hub": {
+   "fc_baseline": 1.0,
+   "median_capture": 1.0,
+   "regime": "ceiling_bound",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.06
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.06
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.18
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.18
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.18
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.18
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.18
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.18
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.18
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.18
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.18
+    }
+   }
+  },
+  "2|0.58|random": {
+   "fc_baseline": 0.68,
+   "median_capture": 3.0,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.30000000000000004
+   },
+   "oracle_any": 0.16000000000000003,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.4
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.54
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.08000000000000007,
+     "timely": 0.6
+    },
+    "random@B1": {
+     "fc_prevention": 0.06000000000000005,
+     "timely": 0.48
+    },
+    "random@B2": {
+     "fc_prevention": 0.12,
+     "timely": 0.58
+    },
+    "random@B3": {
+     "fc_prevention": 0.10000000000000009,
+     "timely": 0.72
+    },
+    "front@B1": {
+     "fc_prevention": 0.30000000000000004,
+     "timely": 0.98
+    },
+    "front@B2": {
+     "fc_prevention": 0.30000000000000004,
+     "timely": 0.98
+    },
+    "front@B3": {
+     "fc_prevention": 0.30000000000000004,
+     "timely": 0.98
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.34
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.34
+    },
+    "back@B3": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.34
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.30000000000000004,
+     "timely": 0.98
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.30000000000000004,
+     "timely": 0.98
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.30000000000000004,
+     "timely": 0.98
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.98
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.08000000000000007,
+     "timely": 0.98
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.16000000000000003,
+     "timely": 0.98
+    }
+   }
+  },
+  "2|0.58|small_world": {
+   "fc_baseline": 0.68,
+   "median_capture": 2.0,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.12
+   },
+   "oracle_any": 0.08000000000000007,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.34
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.36
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.42
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.4
+    },
+    "random@B2": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.52
+    },
+    "random@B3": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.44
+    },
+    "front@B1": {
+     "fc_prevention": 0.12,
+     "timely": 0.94
+    },
+    "front@B2": {
+     "fc_prevention": 0.12,
+     "timely": 0.94
+    },
+    "front@B3": {
+     "fc_prevention": 0.12,
+     "timely": 0.94
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.32
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.32
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.32
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.12,
+     "timely": 0.94
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.12,
+     "timely": 0.94
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.12,
+     "timely": 0.94
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.94
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.06000000000000005,
+     "timely": 0.94
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.08000000000000007,
+     "timely": 0.94
+    }
+   }
+  },
+  "2|0.66|clustered": {
+   "fc_baseline": 0.0,
+   "median_capture": null,
+   "regime": "benign",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    }
+   }
+  },
+  "2|0.66|hub": {
+   "fc_baseline": 0.84,
+   "median_capture": 4.0,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.82
+   },
+   "oracle_any": 0.58,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.42
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.26,
+     "timely": 0.54
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.33999999999999997,
+     "timely": 0.78
+    },
+    "random@B1": {
+     "fc_prevention": 0.09999999999999998,
+     "timely": 0.44
+    },
+    "random@B2": {
+     "fc_prevention": 0.31999999999999995,
+     "timely": 0.64
+    },
+    "random@B3": {
+     "fc_prevention": 0.39999999999999997,
+     "timely": 0.66
+    },
+    "front@B1": {
+     "fc_prevention": 0.82,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.82,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.82,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.16
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.16
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.16
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.82,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.82,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.82,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.15999999999999992,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.31999999999999995,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.58,
+     "timely": 1.0
+    }
+   }
+  },
+  "2|0.66|random": {
+   "fc_baseline": 0.1,
+   "median_capture": null,
+   "regime": "budget_saturated",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.1
+   },
+   "oracle_any": 0.060000000000000005,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.060000000000000005,
+     "timely": 0.98
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.08,
+     "timely": 1.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.08,
+     "timely": 1.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.04000000000000001,
+     "timely": 0.98
+    },
+    "random@B2": {
+     "fc_prevention": 0.1,
+     "timely": 1.0
+    },
+    "random@B3": {
+     "fc_prevention": 0.1,
+     "timely": 1.0
+    },
+    "front@B1": {
+     "fc_prevention": 0.1,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.1,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.1,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.020000000000000004,
+     "timely": 0.92
+    },
+    "back@B2": {
+     "fc_prevention": 0.020000000000000004,
+     "timely": 0.96
+    },
+    "back@B3": {
+     "fc_prevention": 0.020000000000000004,
+     "timely": 0.96
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.1,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.1,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.1,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.020000000000000004,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.020000000000000004,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.060000000000000005,
+     "timely": 1.0
+    }
+   }
+  },
+  "2|0.66|small_world": {
+   "fc_baseline": 0.0,
+   "median_capture": null,
+   "regime": "benign",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    }
+   }
+  },
+  "2|0.74|clustered": {
+   "fc_baseline": 0.0,
+   "median_capture": null,
+   "regime": "benign",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    }
+   }
+  },
+  "2|0.74|hub": {
+   "fc_baseline": 0.02,
+   "median_capture": null,
+   "regime": "benign",
+   "best_B1": {
+    "policy": "random",
+    "fc_prevention": 0.02
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B3": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "front@B1": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.98
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.98
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.98
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    }
+   }
+  },
+  "2|0.74|random": {
+   "fc_baseline": 0.0,
+   "median_capture": null,
+   "regime": "benign",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    }
+   }
+  },
+  "2|0.74|small_world": {
+   "fc_baseline": 0.0,
+   "median_capture": null,
+   "regime": "benign",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    }
+   }
+  },
+  "3|0.58|clustered": {
+   "fc_baseline": 0.58,
+   "median_capture": 2,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.23999999999999994
+   },
+   "oracle_any": 0.21999999999999997,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.09999999999999998,
+     "timely": 0.46
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.11999999999999994,
+     "timely": 0.54
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.13999999999999996,
+     "timely": 0.58
+    },
+    "random@B1": {
+     "fc_prevention": 0.07999999999999996,
+     "timely": 0.52
+    },
+    "random@B2": {
+     "fc_prevention": 0.15999999999999998,
+     "timely": 0.6
+    },
+    "random@B3": {
+     "fc_prevention": 0.13999999999999996,
+     "timely": 0.68
+    },
+    "front@B1": {
+     "fc_prevention": 0.23999999999999994,
+     "timely": 0.88
+    },
+    "front@B2": {
+     "fc_prevention": 0.23999999999999994,
+     "timely": 0.88
+    },
+    "front@B3": {
+     "fc_prevention": 0.23999999999999994,
+     "timely": 0.88
+    },
+    "back@B1": {
+     "fc_prevention": 0.039999999999999925,
+     "timely": 0.42
+    },
+    "back@B2": {
+     "fc_prevention": 0.05999999999999994,
+     "timely": 0.42
+    },
+    "back@B3": {
+     "fc_prevention": 0.05999999999999994,
+     "timely": 0.42
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.23999999999999994,
+     "timely": 0.88
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.23999999999999994,
+     "timely": 0.88
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.23999999999999994,
+     "timely": 0.88
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.11999999999999994,
+     "timely": 0.88
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.19999999999999996,
+     "timely": 0.88
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.21999999999999997,
+     "timely": 0.88
+    }
+   }
+  },
+  "3|0.58|hub": {
+   "fc_baseline": 1.0,
+   "median_capture": 1.0,
+   "regime": "ceiling_bound",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    }
+   }
+  },
+  "3|0.58|random": {
+   "fc_baseline": 0.92,
+   "median_capture": 3,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.44000000000000006
+   },
+   "oracle_any": 0.4,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.12
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.06000000000000005,
+     "timely": 0.2
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.06000000000000005,
+     "timely": 0.34
+    },
+    "random@B1": {
+     "fc_prevention": 0.10000000000000009,
+     "timely": 0.22
+    },
+    "random@B2": {
+     "fc_prevention": 0.10000000000000009,
+     "timely": 0.38
+    },
+    "random@B3": {
+     "fc_prevention": 0.16000000000000003,
+     "timely": 0.46
+    },
+    "front@B1": {
+     "fc_prevention": 0.44000000000000006,
+     "timely": 0.88
+    },
+    "front@B2": {
+     "fc_prevention": 0.44000000000000006,
+     "timely": 0.88
+    },
+    "front@B3": {
+     "fc_prevention": 0.44000000000000006,
+     "timely": 0.88
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.06
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.06
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.06
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.44000000000000006,
+     "timely": 0.88
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.44000000000000006,
+     "timely": 0.88
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.44000000000000006,
+     "timely": 0.88
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.08000000000000007,
+     "timely": 0.88
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.30000000000000004,
+     "timely": 0.88
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.4,
+     "timely": 0.88
+    }
+   }
+  },
+  "3|0.58|small_world": {
+   "fc_baseline": 0.82,
+   "median_capture": 2,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.19999999999999996
+   },
+   "oracle_any": 0.09999999999999998,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.22
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.28
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.019999999999999907,
+     "timely": 0.34
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.24
+    },
+    "random@B2": {
+     "fc_prevention": 0.019999999999999907,
+     "timely": 0.32
+    },
+    "random@B3": {
+     "fc_prevention": 0.019999999999999907,
+     "timely": 0.34
+    },
+    "front@B1": {
+     "fc_prevention": 0.19999999999999996,
+     "timely": 0.72
+    },
+    "front@B2": {
+     "fc_prevention": 0.19999999999999996,
+     "timely": 0.72
+    },
+    "front@B3": {
+     "fc_prevention": 0.19999999999999996,
+     "timely": 0.72
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.18
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.18
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.18
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.19999999999999996,
+     "timely": 0.72
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.19999999999999996,
+     "timely": 0.72
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.19999999999999996,
+     "timely": 0.72
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.07999999999999996,
+     "timely": 0.72
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.09999999999999998,
+     "timely": 0.72
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.09999999999999998,
+     "timely": 0.72
+    }
+   }
+  },
+  "3|0.66|clustered": {
+   "fc_baseline": 0.16,
+   "median_capture": null,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.16
+   },
+   "oracle_any": 0.08,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.06,
+     "timely": 0.94
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.12,
+     "timely": 0.98
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.16,
+     "timely": 1.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.1,
+     "timely": 0.96
+    },
+    "random@B2": {
+     "fc_prevention": 0.12,
+     "timely": 0.96
+    },
+    "random@B3": {
+     "fc_prevention": 0.16,
+     "timely": 1.0
+    },
+    "front@B1": {
+     "fc_prevention": 0.16,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.16,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.16,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.86
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.86
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.88
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.16,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.16,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.16,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.01999999999999999,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.08,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.08,
+     "timely": 1.0
+    }
+   }
+  },
+  "3|0.66|hub": {
+   "fc_baseline": 1.0,
+   "median_capture": 3.0,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.78
+   },
+   "oracle_any": 0.78,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.02
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.08
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.06000000000000005,
+     "timely": 0.22
+    },
+    "random@B1": {
+     "fc_prevention": 0.07999999999999996,
+     "timely": 0.14
+    },
+    "random@B2": {
+     "fc_prevention": 0.21999999999999997,
+     "timely": 0.32
+    },
+    "random@B3": {
+     "fc_prevention": 0.18000000000000005,
+     "timely": 0.34
+    },
+    "front@B1": {
+     "fc_prevention": 0.78,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.78,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.78,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    },
+    "back@B2": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.02
+    },
+    "back@B3": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.02
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.78,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.78,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.78,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.30000000000000004,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.62,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.78,
+     "timely": 1.0
+    }
+   }
+  },
+  "3|0.66|random": {
+   "fc_baseline": 0.44,
+   "median_capture": null,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.44
+   },
+   "oracle_any": 0.24,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.14,
+     "timely": 0.88
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.3,
+     "timely": 0.94
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.36,
+     "timely": 0.96
+    },
+    "random@B1": {
+     "fc_prevention": 0.18,
+     "timely": 0.82
+    },
+    "random@B2": {
+     "fc_prevention": 0.32,
+     "timely": 0.92
+    },
+    "random@B3": {
+     "fc_prevention": 0.36,
+     "timely": 0.94
+    },
+    "front@B1": {
+     "fc_prevention": 0.44,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.44,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.44,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.56
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.56
+    },
+    "back@B3": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.58
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.44,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.44,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.44,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.12,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.15999999999999998,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.24,
+     "timely": 1.0
+    }
+   }
+  },
+  "3|0.66|small_world": {
+   "fc_baseline": 0.1,
+   "median_capture": null,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.1
+   },
+   "oracle_any": 0.1,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.9
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.04000000000000001,
+     "timely": 0.98
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.08,
+     "timely": 1.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.020000000000000004,
+     "timely": 0.92
+    },
+    "random@B2": {
+     "fc_prevention": 0.060000000000000005,
+     "timely": 0.96
+    },
+    "random@B3": {
+     "fc_prevention": 0.060000000000000005,
+     "timely": 0.96
+    },
+    "front@B1": {
+     "fc_prevention": 0.1,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.1,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.1,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.88
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.88
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.88
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.1,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.1,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.1,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.04000000000000001,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.08,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.1,
+     "timely": 1.0
+    }
+   }
+  },
+  "3|0.74|clustered": {
+   "fc_baseline": 0.0,
+   "median_capture": null,
+   "regime": "benign",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    }
+   }
+  },
+  "3|0.74|hub": {
+   "fc_baseline": 0.64,
+   "median_capture": 8.5,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.64
+   },
+   "oracle_any": 0.4,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.24,
+     "timely": 0.72
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.46,
+     "timely": 1.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.62,
+     "timely": 1.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.22000000000000003,
+     "timely": 0.7
+    },
+    "random@B2": {
+     "fc_prevention": 0.4,
+     "timely": 0.94
+    },
+    "random@B3": {
+     "fc_prevention": 0.48,
+     "timely": 0.96
+    },
+    "front@B1": {
+     "fc_prevention": 0.64,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.64,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.64,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.36
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.38
+    },
+    "back@B3": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.48
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.64,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.64,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.64,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.06000000000000005,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.2,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.4,
+     "timely": 1.0
+    }
+   }
+  },
+  "3|0.74|random": {
+   "fc_baseline": 0.04,
+   "median_capture": null,
+   "regime": "benign",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.04
+   },
+   "oracle_any": 0.04,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "random@B2": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "random@B3": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "front@B1": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.96
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.96
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.96
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    }
+   }
+  },
+  "3|0.74|small_world": {
+   "fc_baseline": 0.0,
+   "median_capture": null,
+   "regime": "benign",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    }
+   }
+  },
+  "4|0.58|clustered": {
+   "fc_baseline": 0.78,
+   "median_capture": 2,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.32
+   },
+   "oracle_any": 0.28,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.26
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.09999999999999998,
+     "timely": 0.32
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.09999999999999998,
+     "timely": 0.4
+    },
+    "random@B1": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.32
+    },
+    "random@B2": {
+     "fc_prevention": 0.16000000000000003,
+     "timely": 0.42
+    },
+    "random@B3": {
+     "fc_prevention": 0.12,
+     "timely": 0.48
+    },
+    "front@B1": {
+     "fc_prevention": 0.32,
+     "timely": 0.84
+    },
+    "front@B2": {
+     "fc_prevention": 0.32,
+     "timely": 0.84
+    },
+    "front@B3": {
+     "fc_prevention": 0.32,
+     "timely": 0.84
+    },
+    "back@B1": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.22
+    },
+    "back@B2": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.22
+    },
+    "back@B3": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.22
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.32,
+     "timely": 0.84
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.32,
+     "timely": 0.84
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.32,
+     "timely": 0.84
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.16000000000000003,
+     "timely": 0.84
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.24,
+     "timely": 0.84
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.28,
+     "timely": 0.84
+    }
+   }
+  },
+  "4|0.58|hub": {
+   "fc_baseline": 1.0,
+   "median_capture": 1.0,
+   "regime": "ceiling_bound",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    }
+   }
+  },
+  "4|0.58|random": {
+   "fc_baseline": 0.94,
+   "median_capture": 2,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.19999999999999996
+   },
+   "oracle_any": 0.1399999999999999,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.06
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.12
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.019999999999999907,
+     "timely": 0.16
+    },
+    "random@B1": {
+     "fc_prevention": 0.019999999999999907,
+     "timely": 0.18
+    },
+    "random@B2": {
+     "fc_prevention": 0.039999999999999925,
+     "timely": 0.2
+    },
+    "random@B3": {
+     "fc_prevention": 0.09999999999999998,
+     "timely": 0.26
+    },
+    "front@B1": {
+     "fc_prevention": 0.19999999999999996,
+     "timely": 0.66
+    },
+    "front@B2": {
+     "fc_prevention": 0.19999999999999996,
+     "timely": 0.66
+    },
+    "front@B3": {
+     "fc_prevention": 0.19999999999999996,
+     "timely": 0.66
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.06
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.06
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.06
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.19999999999999996,
+     "timely": 0.66
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.19999999999999996,
+     "timely": 0.66
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.19999999999999996,
+     "timely": 0.66
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.05999999999999994,
+     "timely": 0.66
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.12,
+     "timely": 0.66
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.1399999999999999,
+     "timely": 0.66
+    }
+   }
+  },
+  "4|0.58|small_world": {
+   "fc_baseline": 0.96,
+   "median_capture": 1.0,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.12
+   },
+   "oracle_any": 0.12,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.06
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.06
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.1
+    },
+    "random@B1": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.12
+    },
+    "random@B2": {
+     "fc_prevention": 0.039999999999999925,
+     "timely": 0.1
+    },
+    "random@B3": {
+     "fc_prevention": 0.039999999999999925,
+     "timely": 0.14
+    },
+    "front@B1": {
+     "fc_prevention": 0.12,
+     "timely": 0.42
+    },
+    "front@B2": {
+     "fc_prevention": 0.12,
+     "timely": 0.42
+    },
+    "front@B3": {
+     "fc_prevention": 0.12,
+     "timely": 0.42
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.04
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.04
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.04
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.12,
+     "timely": 0.42
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.12,
+     "timely": 0.42
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.12,
+     "timely": 0.42
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.05999999999999994,
+     "timely": 0.42
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.09999999999999998,
+     "timely": 0.42
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.12,
+     "timely": 0.42
+    }
+   }
+  },
+  "4|0.66|clustered": {
+   "fc_baseline": 0.32,
+   "median_capture": null,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.3
+   },
+   "oracle_any": 0.28,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.68
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.14,
+     "timely": 0.78
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.24,
+     "timely": 0.9
+    },
+    "random@B1": {
+     "fc_prevention": 0.03999999999999998,
+     "timely": 0.7
+    },
+    "random@B2": {
+     "fc_prevention": 0.16,
+     "timely": 0.82
+    },
+    "random@B3": {
+     "fc_prevention": 0.24,
+     "timely": 0.9
+    },
+    "front@B1": {
+     "fc_prevention": 0.3,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.3,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.3,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.66
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.66
+    },
+    "back@B3": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.68
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.3,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.3,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.3,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.22,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.26,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.28,
+     "timely": 1.0
+    }
+   }
+  },
+  "4|0.66|hub": {
+   "fc_baseline": 1.0,
+   "median_capture": 2.0,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.48
+   },
+   "oracle_any": 0.48,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.04
+    },
+    "random@B1": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.1
+    },
+    "random@B2": {
+     "fc_prevention": 0.06000000000000005,
+     "timely": 0.18
+    },
+    "random@B3": {
+     "fc_prevention": 0.09999999999999998,
+     "timely": 0.24
+    },
+    "front@B1": {
+     "fc_prevention": 0.48,
+     "timely": 0.82
+    },
+    "front@B2": {
+     "fc_prevention": 0.48,
+     "timely": 0.82
+    },
+    "front@B3": {
+     "fc_prevention": 0.48,
+     "timely": 0.82
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.48,
+     "timely": 0.82
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.48,
+     "timely": 0.82
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.48,
+     "timely": 0.82
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.33999999999999997,
+     "timely": 0.82
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.48,
+     "timely": 0.82
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.48,
+     "timely": 0.82
+    }
+   }
+  },
+  "4|0.66|random": {
+   "fc_baseline": 0.72,
+   "median_capture": 4.0,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.7
+   },
+   "oracle_any": 0.58,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.05999999999999994,
+     "timely": 0.38
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.14,
+     "timely": 0.56
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.21999999999999997,
+     "timely": 0.66
+    },
+    "random@B1": {
+     "fc_prevention": 0.14,
+     "timely": 0.5
+    },
+    "random@B2": {
+     "fc_prevention": 0.3,
+     "timely": 0.6
+    },
+    "random@B3": {
+     "fc_prevention": 0.3,
+     "timely": 0.66
+    },
+    "front@B1": {
+     "fc_prevention": 0.7,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.7,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.7,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.28
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.28
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.3
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.7,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.7,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.7,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.3,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.48,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.58,
+     "timely": 1.0
+    }
+   }
+  },
+  "4|0.66|small_world": {
+   "fc_baseline": 0.58,
+   "median_capture": 5,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.5599999999999999
+   },
+   "oracle_any": 0.5399999999999999,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.13999999999999996,
+     "timely": 0.58
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.25999999999999995,
+     "timely": 0.74
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.29999999999999993,
+     "timely": 0.84
+    },
+    "random@B1": {
+     "fc_prevention": 0.19999999999999996,
+     "timely": 0.64
+    },
+    "random@B2": {
+     "fc_prevention": 0.31999999999999995,
+     "timely": 0.8
+    },
+    "random@B3": {
+     "fc_prevention": 0.33999999999999997,
+     "timely": 0.8
+    },
+    "front@B1": {
+     "fc_prevention": 0.5599999999999999,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.5599999999999999,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.5599999999999999,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.039999999999999925,
+     "timely": 0.46
+    },
+    "back@B2": {
+     "fc_prevention": 0.039999999999999925,
+     "timely": 0.48
+    },
+    "back@B3": {
+     "fc_prevention": 0.039999999999999925,
+     "timely": 0.48
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.5599999999999999,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.5599999999999999,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.5599999999999999,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.17999999999999994,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.33999999999999997,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.5399999999999999,
+     "timely": 1.0
+    }
+   }
+  },
+  "4|0.74|clustered": {
+   "fc_baseline": 0.02,
+   "median_capture": null,
+   "regime": "benign",
+   "best_B1": {
+    "policy": "random",
+    "fc_prevention": 0.02
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B3": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "front@B1": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.98
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.98
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.98
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    }
+   }
+  },
+  "4|0.74|hub": {
+   "fc_baseline": 0.88,
+   "median_capture": 6.0,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.88
+   },
+   "oracle_any": 0.78,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.24,
+     "timely": 0.44
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.48,
+     "timely": 0.78
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.74,
+     "timely": 0.92
+    },
+    "random@B1": {
+     "fc_prevention": 0.33999999999999997,
+     "timely": 0.54
+    },
+    "random@B2": {
+     "fc_prevention": 0.6,
+     "timely": 0.82
+    },
+    "random@B3": {
+     "fc_prevention": 0.5800000000000001,
+     "timely": 0.82
+    },
+    "front@B1": {
+     "fc_prevention": 0.88,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.88,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.88,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.14
+    },
+    "back@B2": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.18
+    },
+    "back@B3": {
+     "fc_prevention": 0.06000000000000005,
+     "timely": 0.2
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.88,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.88,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.88,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.26,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.6,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.78,
+     "timely": 1.0
+    }
+   }
+  },
+  "4|0.74|random": {
+   "fc_baseline": 0.04,
+   "median_capture": null,
+   "regime": "benign",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.04
+   },
+   "oracle_any": 0.02,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "random@B2": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    },
+    "random@B3": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "front@B1": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.96
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.96
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.98
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.04,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.02,
+     "timely": 1.0
+    }
+   }
+  },
+  "4|0.74|small_world": {
+   "fc_baseline": 0.0,
+   "median_capture": null,
+   "regime": "benign",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 1.0
+    }
+   }
+  },
+  "6|0.58|clustered": {
+   "fc_baseline": 0.92,
+   "median_capture": 1.0,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.26
+   },
+   "oracle_any": 0.26,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.08
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.08
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.1
+    },
+    "random@B1": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.08
+    },
+    "random@B2": {
+     "fc_prevention": 0.06000000000000005,
+     "timely": 0.12
+    },
+    "random@B3": {
+     "fc_prevention": 0.08000000000000007,
+     "timely": 0.16
+    },
+    "front@B1": {
+     "fc_prevention": 0.26,
+     "timely": 0.34
+    },
+    "front@B2": {
+     "fc_prevention": 0.26,
+     "timely": 0.34
+    },
+    "front@B3": {
+     "fc_prevention": 0.26,
+     "timely": 0.34
+    },
+    "back@B1": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.08
+    },
+    "back@B2": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.08
+    },
+    "back@B3": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.08
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.26,
+     "timely": 0.34
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.26,
+     "timely": 0.34
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.26,
+     "timely": 0.34
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.26,
+     "timely": 0.34
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.26,
+     "timely": 0.34
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.26,
+     "timely": 0.34
+    }
+   }
+  },
+  "6|0.58|hub": {
+   "fc_baseline": 1.0,
+   "median_capture": 1.0,
+   "regime": "ceiling_bound",
+   "best_B1": {
+    "policy": "uniform",
+    "fc_prevention": 0.0
+   },
+   "oracle_any": 0.0,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "random@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    }
+   }
+  },
+  "6|0.58|random": {
+   "fc_baseline": 1.0,
+   "median_capture": 1.0,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.18000000000000005
+   },
+   "oracle_any": 0.16000000000000003,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.02
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.04
+    },
+    "random@B1": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.02
+    },
+    "random@B2": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.06
+    },
+    "random@B3": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.08
+    },
+    "front@B1": {
+     "fc_prevention": 0.18000000000000005,
+     "timely": 0.18
+    },
+    "front@B2": {
+     "fc_prevention": 0.18000000000000005,
+     "timely": 0.18
+    },
+    "front@B3": {
+     "fc_prevention": 0.18000000000000005,
+     "timely": 0.18
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.18000000000000005,
+     "timely": 0.18
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.18000000000000005,
+     "timely": 0.18
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.18000000000000005,
+     "timely": 0.18
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.14,
+     "timely": 0.18
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.16000000000000003,
+     "timely": 0.18
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.16000000000000003,
+     "timely": 0.18
+    }
+   }
+  },
+  "6|0.58|small_world": {
+   "fc_baseline": 0.98,
+   "median_capture": 1.0,
+   "regime": "ceiling_bound",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.040000000000000036
+   },
+   "oracle_any": 0.040000000000000036,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "random@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "random@B3": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.02
+    },
+    "front@B1": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.02
+    },
+    "front@B2": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.02
+    },
+    "front@B3": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.02
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.02
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.02
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.02
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.02
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.02
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.02
+    }
+   }
+  },
+  "6|0.66|clustered": {
+   "fc_baseline": 0.72,
+   "median_capture": 2,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.6599999999999999
+   },
+   "oracle_any": 0.6599999999999999,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.07999999999999996,
+     "timely": 0.36
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.19999999999999996,
+     "timely": 0.46
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.3,
+     "timely": 0.5
+    },
+    "random@B1": {
+     "fc_prevention": 0.14,
+     "timely": 0.4
+    },
+    "random@B2": {
+     "fc_prevention": 0.27999999999999997,
+     "timely": 0.52
+    },
+    "random@B3": {
+     "fc_prevention": 0.3,
+     "timely": 0.56
+    },
+    "front@B1": {
+     "fc_prevention": 0.6599999999999999,
+     "timely": 0.86
+    },
+    "front@B2": {
+     "fc_prevention": 0.6599999999999999,
+     "timely": 0.86
+    },
+    "front@B3": {
+     "fc_prevention": 0.6599999999999999,
+     "timely": 0.86
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.26
+    },
+    "back@B2": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.26
+    },
+    "back@B3": {
+     "fc_prevention": 0.039999999999999925,
+     "timely": 0.28
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.6599999999999999,
+     "timely": 0.86
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.6599999999999999,
+     "timely": 0.86
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.6599999999999999,
+     "timely": 0.86
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.5599999999999999,
+     "timely": 0.86
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.58,
+     "timely": 0.86
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.6599999999999999,
+     "timely": 0.86
+    }
+   }
+  },
+  "6|0.66|hub": {
+   "fc_baseline": 1.0,
+   "median_capture": 1.0,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.18000000000000005
+   },
+   "oracle_any": 0.18000000000000005,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "random@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "random@B2": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.04
+    },
+    "random@B3": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.02
+    },
+    "front@B1": {
+     "fc_prevention": 0.18000000000000005,
+     "timely": 0.24
+    },
+    "front@B2": {
+     "fc_prevention": 0.18000000000000005,
+     "timely": 0.24
+    },
+    "front@B3": {
+     "fc_prevention": 0.18000000000000005,
+     "timely": 0.24
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.18000000000000005,
+     "timely": 0.24
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.18000000000000005,
+     "timely": 0.24
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.18000000000000005,
+     "timely": 0.24
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.18000000000000005,
+     "timely": 0.24
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.18000000000000005,
+     "timely": 0.24
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.18000000000000005,
+     "timely": 0.24
+    }
+   }
+  },
+  "6|0.66|random": {
+   "fc_baseline": 0.92,
+   "median_capture": 2.0,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.9
+   },
+   "oracle_any": 0.88,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.06000000000000005,
+     "timely": 0.14
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.14,
+     "timely": 0.18
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.22000000000000008,
+     "timely": 0.24
+    },
+    "random@B1": {
+     "fc_prevention": 0.14,
+     "timely": 0.22
+    },
+    "random@B2": {
+     "fc_prevention": 0.30000000000000004,
+     "timely": 0.38
+    },
+    "random@B3": {
+     "fc_prevention": 0.3400000000000001,
+     "timely": 0.42
+    },
+    "front@B1": {
+     "fc_prevention": 0.9,
+     "timely": 0.9
+    },
+    "front@B2": {
+     "fc_prevention": 0.9,
+     "timely": 0.9
+    },
+    "front@B3": {
+     "fc_prevention": 0.9,
+     "timely": 0.9
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.08
+    },
+    "back@B2": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.08
+    },
+    "back@B3": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.1
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.9,
+     "timely": 0.9
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.9,
+     "timely": 0.9
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.9,
+     "timely": 0.9
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.76,
+     "timely": 0.9
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.88,
+     "timely": 0.9
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.88,
+     "timely": 0.9
+    }
+   }
+  },
+  "6|0.66|small_world": {
+   "fc_baseline": 0.9,
+   "median_capture": 2,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.74
+   },
+   "oracle_any": 0.74,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.14
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.09999999999999998,
+     "timely": 0.16
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.16000000000000003,
+     "timely": 0.26
+    },
+    "random@B1": {
+     "fc_prevention": 0.08000000000000007,
+     "timely": 0.18
+    },
+    "random@B2": {
+     "fc_prevention": 0.21999999999999997,
+     "timely": 0.38
+    },
+    "random@B3": {
+     "fc_prevention": 0.26,
+     "timely": 0.44
+    },
+    "front@B1": {
+     "fc_prevention": 0.74,
+     "timely": 0.92
+    },
+    "front@B2": {
+     "fc_prevention": 0.74,
+     "timely": 0.92
+    },
+    "front@B3": {
+     "fc_prevention": 0.74,
+     "timely": 0.92
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.1
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.1
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.1
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.74,
+     "timely": 0.92
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.74,
+     "timely": 0.92
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.74,
+     "timely": 0.92
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.6000000000000001,
+     "timely": 0.92
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.7,
+     "timely": 0.92
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.74,
+     "timely": 0.92
+    }
+   }
+  },
+  "6|0.74|clustered": {
+   "fc_baseline": 0.3,
+   "median_capture": null,
+   "regime": "budget_saturated",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.3
+   },
+   "oracle_any": 0.26,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.15999999999999998,
+     "timely": 0.82
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.19999999999999998,
+     "timely": 0.92
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.27999999999999997,
+     "timely": 0.96
+    },
+    "random@B1": {
+     "fc_prevention": 0.09999999999999998,
+     "timely": 0.78
+    },
+    "random@B2": {
+     "fc_prevention": 0.24,
+     "timely": 0.88
+    },
+    "random@B3": {
+     "fc_prevention": 0.24,
+     "timely": 0.94
+    },
+    "front@B1": {
+     "fc_prevention": 0.3,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.3,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.3,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.72
+    },
+    "back@B2": {
+     "fc_prevention": 0.019999999999999962,
+     "timely": 0.72
+    },
+    "back@B3": {
+     "fc_prevention": 0.019999999999999962,
+     "timely": 0.72
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.3,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.3,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.3,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.19999999999999998,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.26,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.26,
+     "timely": 1.0
+    }
+   }
+  },
+  "6|0.74|hub": {
+   "fc_baseline": 1.0,
+   "median_capture": 3.0,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.98
+   },
+   "oracle_any": 0.98,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.020000000000000018,
+     "timely": 0.02
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.06000000000000005,
+     "timely": 0.06
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.16000000000000003,
+     "timely": 0.22
+    },
+    "random@B1": {
+     "fc_prevention": 0.14,
+     "timely": 0.14
+    },
+    "random@B2": {
+     "fc_prevention": 0.33999999999999997,
+     "timely": 0.34
+    },
+    "random@B3": {
+     "fc_prevention": 0.36,
+     "timely": 0.36
+    },
+    "front@B1": {
+     "fc_prevention": 0.98,
+     "timely": 0.96
+    },
+    "front@B2": {
+     "fc_prevention": 0.98,
+     "timely": 0.96
+    },
+    "front@B3": {
+     "fc_prevention": 0.98,
+     "timely": 0.96
+    },
+    "back@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "back@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.98,
+     "timely": 0.96
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.98,
+     "timely": 0.96
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.98,
+     "timely": 0.96
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.74,
+     "timely": 0.96
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.98,
+     "timely": 0.96
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.98,
+     "timely": 0.96
+    }
+   }
+  },
+  "6|0.74|random": {
+   "fc_baseline": 0.6,
+   "median_capture": 6.0,
+   "regime": "placement_critical",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.6
+   },
+   "oracle_any": 0.52,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.27999999999999997,
+     "timely": 0.66
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.42,
+     "timely": 0.84
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.5599999999999999,
+     "timely": 0.96
+    },
+    "random@B1": {
+     "fc_prevention": 0.27999999999999997,
+     "timely": 0.68
+    },
+    "random@B2": {
+     "fc_prevention": 0.43999999999999995,
+     "timely": 0.8
+    },
+    "random@B3": {
+     "fc_prevention": 0.5,
+     "timely": 0.92
+    },
+    "front@B1": {
+     "fc_prevention": 0.6,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.6,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.6,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.039999999999999925,
+     "timely": 0.44
+    },
+    "back@B2": {
+     "fc_prevention": 0.07999999999999996,
+     "timely": 0.48
+    },
+    "back@B3": {
+     "fc_prevention": 0.09999999999999998,
+     "timely": 0.52
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.6,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.6,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.6,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.38,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.52,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.52,
+     "timely": 1.0
+    }
+   }
+  },
+  "6|0.74|small_world": {
+   "fc_baseline": 0.56,
+   "median_capture": 10.0,
+   "regime": "budget_saturated",
+   "best_B1": {
+    "policy": "geometric",
+    "fc_prevention": 0.56
+   },
+   "oracle_any": 0.54,
+   "policies": {
+    "uniform@B1": {
+     "fc_prevention": 0.38000000000000006,
+     "timely": 0.8
+    },
+    "uniform@B2": {
+     "fc_prevention": 0.54,
+     "timely": 0.98
+    },
+    "uniform@B3": {
+     "fc_prevention": 0.54,
+     "timely": 0.98
+    },
+    "random@B1": {
+     "fc_prevention": 0.3400000000000001,
+     "timely": 0.8
+    },
+    "random@B2": {
+     "fc_prevention": 0.5,
+     "timely": 0.92
+    },
+    "random@B3": {
+     "fc_prevention": 0.5,
+     "timely": 0.94
+    },
+    "front@B1": {
+     "fc_prevention": 0.56,
+     "timely": 1.0
+    },
+    "front@B2": {
+     "fc_prevention": 0.56,
+     "timely": 1.0
+    },
+    "front@B3": {
+     "fc_prevention": 0.56,
+     "timely": 1.0
+    },
+    "back@B1": {
+     "fc_prevention": 0.040000000000000036,
+     "timely": 0.5
+    },
+    "back@B2": {
+     "fc_prevention": 0.12000000000000005,
+     "timely": 0.52
+    },
+    "back@B3": {
+     "fc_prevention": 0.22000000000000003,
+     "timely": 0.56
+    },
+    "geometric@B1": {
+     "fc_prevention": 0.56,
+     "timely": 1.0
+    },
+    "geometric@B2": {
+     "fc_prevention": 0.56,
+     "timely": 1.0
+    },
+    "geometric@B3": {
+     "fc_prevention": 0.56,
+     "timely": 1.0
+    },
+    "suspicion@B1": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B2": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "suspicion@B3": {
+     "fc_prevention": 0.0,
+     "timely": 0.0
+    },
+    "oracle@B1": {
+     "fc_prevention": 0.38000000000000006,
+     "timely": 1.0
+    },
+    "oracle@B2": {
+     "fc_prevention": 0.52,
+     "timely": 1.0
+    },
+    "oracle@B3": {
+     "fc_prevention": 0.54,
+     "timely": 1.0
+    }
+   }
+  }
+ }
+}

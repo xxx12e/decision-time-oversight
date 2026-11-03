@@ -1,0 +1,3156 @@
+{
+ "cells": {
+  "easy_dense_four|L0|well_specified": {
+   "uniform@B1": {
+    "miss": 0.4166666666666667,
+    "mean_pen": 33.375,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 0.125,
+    "mean_pen": 26.916666666666668,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 0.0,
+    "mean_pen": 17.375,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 0.0,
+    "mean_pen": 8.166666666666666,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 0.0,
+    "mean_pen": 4.416666666666667,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 0.6666666666666666,
+    "mean_pen": 65.83333333333333,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 0.375,
+    "mean_pen": 48.375,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 0.125,
+    "mean_pen": 33.416666666666664,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 0.041666666666666664,
+    "mean_pen": 17.0,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 0.041666666666666664,
+    "mean_pen": 10.333333333333334,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 0.0,
+    "mean_pen": 79.04166666666667,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 0.0,
+    "mean_pen": 78.04166666666667,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 0.0,
+    "mean_pen": 76.04166666666667,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 0.0,
+    "mean_pen": 72.04166666666667,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 0.0,
+    "mean_pen": 64.04166666666667,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 0.0,
+    "mean_pen": 34.708333333333336,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 0.0,
+    "mean_pen": 34.708333333333336,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   }
+  },
+  "easy_dense_four|L0|misspecified": {
+   "uniform@B1": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 1.0,
+    "mean_pen": 80.04166666666667,
+    "fa": 0.0
+   }
+  },
+  "easy_dense_four|L2|well_specified": {
+   "uniform@B1": {
+    "miss": 0.5,
+    "mean_pen": 38.25,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 0.3333333333333333,
+    "mean_pen": 29.416666666666668,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 0.0,
+    "mean_pen": 14.25,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 0.0,
+    "mean_pen": 8.416666666666666,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 0.0,
+    "mean_pen": 4.375,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 0.625,
+    "mean_pen": 59.458333333333336,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 0.4583333333333333,
+    "mean_pen": 48.958333333333336,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 0.125,
+    "mean_pen": 28.958333333333332,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 0.041666666666666664,
+    "mean_pen": 19.333333333333332,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 0.0,
+    "mean_pen": 9.916666666666666,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 0.0,
+    "mean_pen": 77.25,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 0.0,
+    "mean_pen": 76.25,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 0.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 0.0,
+    "mean_pen": 70.25,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 0.0,
+    "mean_pen": 62.25,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 0.0,
+    "mean_pen": 19.583333333333332,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 0.0,
+    "mean_pen": 19.583333333333332,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   }
+  },
+  "easy_dense_four|L2|misspecified": {
+   "uniform@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 0.0,
+    "mean_pen": 34.75,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 0.875,
+    "mean_pen": 75.375,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 0.0,
+    "mean_pen": 39.75,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 0.0,
+    "mean_pen": 77.25,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 0.0,
+    "mean_pen": 69.25,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 0.0,
+    "mean_pen": 7.0,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 0.0,
+    "mean_pen": 7.0,
+    "fa": 0.0
+   }
+  },
+  "flip_equiv_BN|L3|well_specified": {
+   "uniform@B1": {
+    "miss": 0.5,
+    "mean_pen": 37.333333333333336,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 0.16666666666666666,
+    "mean_pen": 30.916666666666668,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 0.0,
+    "mean_pen": 16.0,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 0.0,
+    "mean_pen": 9.916666666666666,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 0.0,
+    "mean_pen": 4.791666666666667,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 0.6666666666666666,
+    "mean_pen": 63.208333333333336,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 0.3333333333333333,
+    "mean_pen": 45.333333333333336,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 0.125,
+    "mean_pen": 29.666666666666668,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 0.0,
+    "mean_pen": 15.041666666666666,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 0.0,
+    "mean_pen": 8.666666666666666,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 0.0,
+    "mean_pen": 76.33333333333333,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 0.0,
+    "mean_pen": 75.33333333333333,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 0.0,
+    "mean_pen": 73.33333333333333,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 0.0,
+    "mean_pen": 69.33333333333333,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 0.0,
+    "mean_pen": 61.333333333333336,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 0.0,
+    "mean_pen": 32.0,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 0.0,
+    "mean_pen": 32.0,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   }
+  },
+  "flip_equiv_BN|L3|misspecified": {
+   "uniform@B1": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 1.0,
+    "mean_pen": 77.33333333333333,
+    "fa": 0.0
+   }
+  },
+  "flip_equiv_NB|L3|well_specified": {
+   "uniform@B1": {
+    "miss": 0.625,
+    "mean_pen": 43.916666666666664,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 0.25,
+    "mean_pen": 27.416666666666668,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 0.0,
+    "mean_pen": 17.916666666666668,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 0.0,
+    "mean_pen": 7.916666666666667,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 0.0,
+    "mean_pen": 5.333333333333333,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 0.7083333333333334,
+    "mean_pen": 61.458333333333336,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 0.3333333333333333,
+    "mean_pen": 42.416666666666664,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 0.20833333333333334,
+    "mean_pen": 29.25,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 0.0,
+    "mean_pen": 17.458333333333332,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 0.0,
+    "mean_pen": 8.458333333333334,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 0.0,
+    "mean_pen": 72.91666666666667,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 0.0,
+    "mean_pen": 71.91666666666667,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 0.0,
+    "mean_pen": 69.91666666666667,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 0.0,
+    "mean_pen": 65.91666666666667,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 0.0,
+    "mean_pen": 57.916666666666664,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 0.0,
+    "mean_pen": 31.25,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 0.0,
+    "mean_pen": 31.25,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   }
+  },
+  "flip_equiv_NB|L3|misspecified": {
+   "uniform@B1": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 1.0,
+    "mean_pen": 73.91666666666667,
+    "fa": 0.0
+   }
+  },
+  "impossible_equivalent|L2|well_specified": {
+   "uniform@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   }
+  },
+  "impossible_equivalent|L2|misspecified": {
+   "uniform@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 1.0,
+    "mean_pen": 78.25,
+    "fa": 0.0
+   }
+  },
+  "language_unlocked_l2|L2|well_specified": {
+   "uniform@B1": {
+    "miss": 0.5416666666666666,
+    "mean_pen": 38.875,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 0.25,
+    "mean_pen": 29.041666666666668,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 0.0,
+    "mean_pen": 12.875,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 0.0,
+    "mean_pen": 9.541666666666666,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 0.0,
+    "mean_pen": 3.625,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 0.5833333333333334,
+    "mean_pen": 53.041666666666664,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 0.4166666666666667,
+    "mean_pen": 47.208333333333336,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 0.25,
+    "mean_pen": 37.875,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 0.041666666666666664,
+    "mean_pen": 23.958333333333332,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 0.0,
+    "mean_pen": 10.208333333333334,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 0.0,
+    "mean_pen": 74.54166666666667,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 0.0,
+    "mean_pen": 73.54166666666667,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 0.0,
+    "mean_pen": 71.54166666666667,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 0.0,
+    "mean_pen": 67.54166666666667,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 0.0,
+    "mean_pen": 59.541666666666664,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 0.0,
+    "mean_pen": 27.541666666666668,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 0.0,
+    "mean_pen": 27.541666666666668,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   }
+  },
+  "language_unlocked_l2|L2|misspecified": {
+   "uniform@B1": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 1.0,
+    "mean_pen": 75.54166666666667,
+    "fa": 0.0
+   }
+  },
+  "language_unlocked_l2|L3|well_specified": {
+   "uniform@B1": {
+    "miss": 0.6666666666666666,
+    "mean_pen": 47.583333333333336,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 0.08333333333333333,
+    "mean_pen": 21.166666666666668,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 0.0,
+    "mean_pen": 16.916666666666668,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 0.0,
+    "mean_pen": 8.416666666666666,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 0.0,
+    "mean_pen": 3.7083333333333335,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 0.625,
+    "mean_pen": 55.541666666666664,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 0.3333333333333333,
+    "mean_pen": 41.291666666666664,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 0.08333333333333333,
+    "mean_pen": 25.291666666666668,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 0.0,
+    "mean_pen": 13.0,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 0.0,
+    "mean_pen": 5.75,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 0.0,
+    "mean_pen": 73.25,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 0.0,
+    "mean_pen": 72.25,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 0.0,
+    "mean_pen": 70.25,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 0.0,
+    "mean_pen": 66.25,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 0.0,
+    "mean_pen": 58.25,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 0.0,
+    "mean_pen": 31.583333333333332,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 0.0,
+    "mean_pen": 31.583333333333332,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   }
+  },
+  "language_unlocked_l2|L3|misspecified": {
+   "uniform@B1": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 1.0,
+    "mean_pen": 74.25,
+    "fa": 0.0
+   }
+  },
+  "one_entry_sparse_l3|L3|well_specified": {
+   "uniform@B1": {
+    "miss": 0.375,
+    "mean_pen": 33.791666666666664,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 0.08333333333333333,
+    "mean_pen": 26.208333333333332,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 0.0,
+    "mean_pen": 17.125,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 0.0,
+    "mean_pen": 6.708333333333333,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 0.0,
+    "mean_pen": 5.291666666666667,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 0.625,
+    "mean_pen": 63.291666666666664,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 0.3333333333333333,
+    "mean_pen": 50.416666666666664,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 0.125,
+    "mean_pen": 25.958333333333332,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 0.041666666666666664,
+    "mean_pen": 21.416666666666668,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 0.0,
+    "mean_pen": 11.625,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 0.0,
+    "mean_pen": 82.79166666666667,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 0.0,
+    "mean_pen": 81.79166666666667,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 0.0,
+    "mean_pen": 79.79166666666667,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 0.0,
+    "mean_pen": 75.79166666666667,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 0.0,
+    "mean_pen": 67.79166666666667,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 0.0,
+    "mean_pen": 30.458333333333332,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 0.0,
+    "mean_pen": 30.458333333333332,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   }
+  },
+  "one_entry_sparse_l3|L3|misspecified": {
+   "uniform@B1": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 1.0,
+    "mean_pen": 83.79166666666667,
+    "fa": 0.0
+   }
+  },
+  "sparse_hard_l2|L2|well_specified": {
+   "uniform@B1": {
+    "miss": 0.4166666666666667,
+    "mean_pen": 36.041666666666664,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 0.16666666666666666,
+    "mean_pen": 25.041666666666668,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 0.0,
+    "mean_pen": 18.708333333333332,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 0.0,
+    "mean_pen": 7.791666666666667,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 0.0,
+    "mean_pen": 4.25,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 0.5416666666666666,
+    "mean_pen": 54.458333333333336,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 0.375,
+    "mean_pen": 49.916666666666664,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 0.08333333333333333,
+    "mean_pen": 23.041666666666668,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 0.041666666666666664,
+    "mean_pen": 17.166666666666668,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 0.0,
+    "mean_pen": 8.208333333333334,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 0.0,
+    "mean_pen": 81.70833333333333,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 0.0,
+    "mean_pen": 80.70833333333333,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 0.0,
+    "mean_pen": 78.70833333333333,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 0.0,
+    "mean_pen": 74.70833333333333,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 0.0,
+    "mean_pen": 66.70833333333333,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 0.0,
+    "mean_pen": 29.375,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 0.0,
+    "mean_pen": 29.375,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   }
+  },
+  "sparse_hard_l2|L2|misspecified": {
+   "uniform@B1": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 1.0,
+    "mean_pen": 82.70833333333333,
+    "fa": 0.0
+   }
+  },
+  "sparse_hard_l2|L3|well_specified": {
+   "uniform@B1": {
+    "miss": 0.25,
+    "mean_pen": 29.458333333333332,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 0.125,
+    "mean_pen": 27.333333333333332,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 0.0,
+    "mean_pen": 16.125,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 0.0,
+    "mean_pen": 10.083333333333334,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 0.0,
+    "mean_pen": 5.041666666666667,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 0.5833333333333334,
+    "mean_pen": 67.16666666666667,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 0.3333333333333333,
+    "mean_pen": 59.375,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 0.041666666666666664,
+    "mean_pen": 19.791666666666668,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 0.0,
+    "mean_pen": 23.666666666666668,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 0.0,
+    "mean_pen": 10.583333333333334,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 0.0,
+    "mean_pen": 88.45833333333333,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 0.0,
+    "mean_pen": 87.45833333333333,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 0.0,
+    "mean_pen": 85.45833333333333,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 0.0,
+    "mean_pen": 81.45833333333333,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 0.0,
+    "mean_pen": 73.45833333333333,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 0.0,
+    "mean_pen": 28.125,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 0.0,
+    "mean_pen": 28.125,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 0.0,
+    "mean_pen": 0.0,
+    "fa": 0.0
+   }
+  },
+  "sparse_hard_l2|L3|misspecified": {
+   "uniform@B1": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "uniform@B2": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "uniform@B4": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "uniform@B8": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "uniform@B16": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "random@B1": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "random@B2": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "random@B4": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "random@B8": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "random@B16": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "front@B1": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "front@B2": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "front@B4": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "front@B8": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "front@B16": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "back@B1": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "back@B2": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "back@B4": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "back@B8": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "back@B16": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "geometric@B1": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "geometric@B2": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "geometric@B4": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "geometric@B8": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "geometric@B16": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "oracle@B1": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "oracle@B2": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "oracle@B4": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "oracle@B8": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   },
+   "oracle@B16": {
+    "miss": 1.0,
+    "mean_pen": 89.45833333333333,
+    "fa": 0.0
+   }
+  }
+ },
+ "h5": {
+  "B1": {
+   "n_cells": 3,
+   "k_geometric_better": 0,
+   "k_uniform_better": 3,
+   "sign_p_geometric": 1.0,
+   "sign_p_uniform": 0.125,
+   "well_details": [
+    {
+     "cell": "easy_dense_four|L0",
+     "mean_delta_pen": -46.666666666666664
+    },
+    {
+     "cell": "easy_dense_four|L2",
+     "mean_delta_pen": -40.0
+    },
+    {
+     "cell": "language_unlocked_l2|L2",
+     "mean_delta_pen": -36.666666666666664
+    }
+   ],
+   "mis_mean_deltas": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "B2": {
+   "n_cells": 3,
+   "k_geometric_better": 0,
+   "k_uniform_better": 3,
+   "sign_p_geometric": 1.0,
+   "sign_p_uniform": 0.125,
+   "well_details": [
+    {
+     "cell": "easy_dense_four|L0",
+     "mean_delta_pen": -53.125
+    },
+    {
+     "cell": "easy_dense_four|L2",
+     "mean_delta_pen": -48.833333333333336
+    },
+    {
+     "cell": "language_unlocked_l2|L2",
+     "mean_delta_pen": -46.5
+    }
+   ],
+   "mis_mean_deltas": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "B4": {
+   "n_cells": 3,
+   "k_geometric_better": 0,
+   "k_uniform_better": 3,
+   "sign_p_geometric": 1.0,
+   "sign_p_uniform": 0.125,
+   "well_details": [
+    {
+     "cell": "easy_dense_four|L0",
+     "mean_delta_pen": -62.666666666666664
+    },
+    {
+     "cell": "easy_dense_four|L2",
+     "mean_delta_pen": -64.0
+    },
+    {
+     "cell": "language_unlocked_l2|L2",
+     "mean_delta_pen": -62.666666666666664
+    }
+   ],
+   "mis_mean_deltas": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "front_collapse": {
+  "B1": {
+   "front_miss": 1.0,
+   "geometric_miss": 1.0,
+   "uniform_miss": 0.47685185185185186,
+   "oracle_miss": 0.0
+  },
+  "B2": {
+   "front_miss": 1.0,
+   "geometric_miss": 1.0,
+   "uniform_miss": 0.17592592592592593,
+   "oracle_miss": 0.0
+  },
+  "B4": {
+   "front_miss": 1.0,
+   "geometric_miss": 1.0,
+   "uniform_miss": 0.0,
+   "oracle_miss": 0.0
+  },
+  "B8": {
+   "front_miss": 1.0,
+   "geometric_miss": 0.0,
+   "uniform_miss": 0.0,
+   "oracle_miss": 0.0
+  },
+  "B16": {
+   "front_miss": 1.0,
+   "geometric_miss": 0.0,
+   "uniform_miss": 0.0,
+   "oracle_miss": 0.0
+  }
+ }
+}

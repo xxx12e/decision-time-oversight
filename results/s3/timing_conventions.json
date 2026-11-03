@@ -1,0 +1,69 @@
+{
+ "s3": {
+  "qwen35": {
+   "plain": {
+    "strict": {
+     "timely_recall": 0.0,
+     "n_pos": 18
+    },
+    "intercept": {
+     "timely_recall": 0.3,
+     "n_pos": 20
+    }
+   },
+   "jitter": {
+    "strict": {
+     "timely_recall": 0.0,
+     "n_pos": 18
+    },
+    "intercept": {
+     "timely_recall": 0.0,
+     "n_pos": 20
+    }
+   }
+  },
+  "gemma4": {
+   "plain": {
+    "strict": {
+     "timely_recall": 0.2222222222222222,
+     "n_pos": 18
+    },
+    "intercept": {
+     "timely_recall": 0.85,
+     "n_pos": 20
+    }
+   },
+   "jitter": {
+    "strict": {
+     "timely_recall": 0.0,
+     "n_pos": 18
+    },
+    "intercept": {
+     "timely_recall": 0.0,
+     "n_pos": 20
+    }
+   }
+  }
+ },
+ "s4": {
+  "strict": {
+   "best_recall": 0.23504273504273504,
+   "best_monitor": "conf_mean",
+   "top3": [
+    "conf_mean",
+    "conf_constancy",
+    "s2_only"
+   ]
+  },
+  "intercept": {
+   "best_recall": 0.6330645161290323,
+   "best_monitor": "conf_constancy",
+   "top3": [
+    "conf_constancy",
+    "s2_only",
+    "w262"
+   ]
+  },
+  "tau_recall_intercept": 0.41025641025641024
+ }
+}

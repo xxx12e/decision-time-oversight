@@ -1,0 +1,80 @@
+seed: 20260601
+model_type: scripted
+n_agents: 32
+rounds: 8
+trials: 5
+consensus_threshold: 0.8
+ci_level: 0.95
+bootstrap_iterations: 500
+balanced_private_evidence: true
+
+experiment: core_sweep
+minority_ratios: [0.0, 0.05, 0.10, 0.15, 0.20, 0.30]
+evidence_strengths: [0.58, 0.66, 0.74]
+evidence_strength_labels:
+  "0.58": weak
+  "0.66": medium
+  "0.74": strong
+memory_lengths: [3]
+graph_topologies: [random, hub, clustered, small_world]
+defenses:
+  - no_defense
+  - evidence_anchoring_only
+  - source_diversity_only
+  - unsupported_claim_quarantine_only
+  - combined
+defense_strengths: [1.0]
+update_rules:
+  - bayesian_like_agent
+  - bounded_confidence_agent
+  - recency_biased_agent
+  - social_proof_agent
+  - stubborn_but_not_committed_agent
+committed_placements: [high_degree]
+
+hub_placement_experiment:
+  enabled: true
+  experiment: hub_placement
+  update_rules: [bayesian_like_agent]
+  committed_placements: [random, low_degree, high_degree, clustered]
+  graph_topologies: [hub]
+  defenses: [no_defense, combined]
+  evidence_strengths: [0.58, 0.66, 0.74]
+  memory_lengths: [3]
+
+graph:
+  target_degree: 8
+  random_edge_prob: 0.13
+  small_world_rewire_prob: 0.18
+  hub_attachment: 4
+  clusters: 4
+  clustered_intra_prob: 0.42
+  clustered_inter_prob: 0.04
+  source_groups: 4
+
+committed:
+  selection: high_degree
+  confidence: 0.99
+  logodds: 4.0
+
+update:
+  evidence_anchor: 0.12
+  social_weight: 2.1
+  max_logodds: 6.0
+  memory_decay: 0.55
+  confidence_cap: 0.95
+
+local_llm:
+  enabled: true
+  model_path: null
+  max_new_tokens: 48
+  temperature: 0.0
+  n_agents: 12
+  rounds: 3
+  trials: 3
+  minority_ratios: [0.0, 0.10, 0.20]
+  evidence_strengths: [0.66]
+  memory_lengths: [3]
+  graph_topologies: [random, hub]
+  defenses: [no_defense, evidence_anchoring_only, combined]
+  defense_strengths: [1.0]

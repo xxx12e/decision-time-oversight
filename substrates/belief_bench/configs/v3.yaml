@@ -1,0 +1,21 @@
+seed: 20260601
+v2_dir: outputs/v2
+out_dir: outputs/v3
+ci_level: 0.95
+bootstrap_iterations: 1000
+
+local_llm:
+  enabled: true
+  model_path: null
+  max_new_tokens: 48
+  temperature: 0.0
+  n_agents: 10
+  rounds: 4
+  trials: 3
+  minority_ratios: [0.0, 0.05, 0.10, 0.20]
+  evidence_strengths: [0.66]
+  memory_lengths: [1]
+  graph_topologies: [random, hub]
+  committed_placements: [random, high_degree]
+  defenses: [no_defense, evidence_anchoring_only, combined]
+  defense_strengths: [1.0]
